@@ -1,4 +1,4 @@
-require('./fonts.scss');
+require('./styles/fonts.scss');
 const { colors } = require('./colors');
 
 const preset = {

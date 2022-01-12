@@ -1,4 +1,4 @@
-const { VuetifyPresetGenerator } = require('@vuetify/cli-plugin-utils');
-const { VUETIFY_PRESET_NAME } = require('./config');
+const { generatePreset } = require('@vuetify/cli-plugin-utils');
 
-module.exports = (api) => VuetifyPresetGenerator(api, VUETIFY_PRESET_NAME);
+module.exports = (api) =>
+  generatePreset(api, `'@sysdyne/vue-cli-plugin-vuetify-preset-sysdyne/preset'`);
