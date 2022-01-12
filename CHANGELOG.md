@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/sysdynetechnologies/vue-cli-plugin-vuetify-preset-sysdyne/compare/v0.0.3...v0.0.4) (2022-01-12)
+
+
+### Bug Fixes
+
+* load scss variables as barrel ([573183d](https://github.com/sysdynetechnologies/vue-cli-plugin-vuetify-preset-sysdyne/commit/573183de9b219543fd353c84a223a3fe3cc01452))
+
 ### [0.0.3](https://github.com/sysdynetechnologies/vue-cli-plugin-vuetify-preset-sysdyne/compare/v0.0.2...v0.0.3) (2022-01-12)
 
 
