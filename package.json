@@ -1,7 +1,7 @@
 {
   "name": "@sysdyne/vue-cli-plugin-vuetify-preset-sysdyne",
   "description": "Vuetify Sysdyne Technologies theme preset as a vue-cli plugin",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/sysdynetechnologies/vue-cli-plugin-vuetify-preset-sysdyne#readme",
   "scripts": {
     "release": "standard-version",
