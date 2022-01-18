@@ -1,0 +1,11 @@
+@import '~vuetify/src/styles/settings/light';
+
+.v-btn {
+  font-family: "SuiGenerisRg",SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+
+  &:not(.v-btn--outlined) {
+    &.primary {
+      color: map-deep-get($material-light, 'text', 'primary')
+    }
+  }
+}

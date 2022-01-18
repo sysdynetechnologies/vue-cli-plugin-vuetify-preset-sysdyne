@@ -1,5 +1,16 @@
-$material-light: (
-        'background': #f4f4f4,
-);
+@import './colors';
 
-$heading-font-family:        'SuiGenerisRg';
+$border-radius-root: 0;
+
+$btn-letter-spacing: 0;
+
+$heading-font-family: 'SuiGenerisRg';
+
+$list-item-action-icon-margin: 16px;
+
+$material-light: (
+        'background': #efefef,
+        'text': (
+                'primary': map-get($sys-gray, 'darken-4')
+        )
+);
